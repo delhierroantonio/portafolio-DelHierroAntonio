@@ -139,3 +139,55 @@ div.hero__socials i.hero__icon:hover {
     font-size: 1rem;
     color: var(--white);
 }
+
+/* b5 about--------------------------------------------------------------------------------------------------------------------------------- */
+
+.about__container {
+    height: 100vh;
+}
+
+.about__image {
+    max-height: 100vh;
+    width: 100%;
+}
+
+.about__title {
+    color: var(--black);
+    font-size: var(--md);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about__text {
+    font-size: 1.2rem;
+}
+
+.about__info--decoration {
+    text-decoration: none !important;
+    color: #e63946;
+}
+
+.about__info--decoration:hover {
+    color: #ec1426;
+    letter-spacing: 1px;
+}
+
+.about__image--secondary {
+    margin: 0 auto;
+    max-width: 15rem;
+    max-height: 9rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: all .3s ease-out;
+    cursor: pointer;
+}
+
+.about__image--secondary:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    transform: scale(1.02);
+}
+
+.footer__copy span:hover {
+    cursor: pointer;
+    color: #e63946;
+}
